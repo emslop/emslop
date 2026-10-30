@@ -1,16 +1,15 @@
-## Hi there 👋
+## Electromagnetic slop
 
-<!--
-**emslop/emslop** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Houston, we have a climate disaster. The *SSSlopstorm* is coming!
 
-Here are some ideas to get you started:
+This account holds repositories and patches, which I wanted to have, but don't have time and cognitive resources for learning and maintaining. All of it put in public domain with **Unlicense**, only if the code is not copied from copylefted project.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Highlights
+
+### [Portage overlay](https://github.com/emslop/emcyc-overlay)
+
+It contains packages which I didn't find maintained in other overlays. It automatically bumps package versions in the separate branch, `main` receives updates only after I personally test if it's working.
+
+### [Gentoo CI container](https://github.com/emslop/gentoo-ci)
+
+Gentoo stage 3 container with updated index and useful packages. It's used for automatic `Manifest` regeneration in the overlay.
